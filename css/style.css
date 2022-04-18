@@ -439,7 +439,7 @@ a {
 
 /* ========== categories ========== */
 .categories {
-    padding: 85px 0 85px;
+    padding: 85px 0 0;
     color: var(--set-color);
 }
 .categories__block {
@@ -459,7 +459,7 @@ a {
 .categories__box {
     box-shadow: 0px 28px 104px rgba(41, 41, 41, 0.15);
     border-radius: 4px; 
-    margin: 0 0 25px;  
+    margin: 0 0 22px;  
     padding: 25px 25px;  
 }
 .categories__subtitle {
@@ -546,6 +546,199 @@ a {
 }
 /* ========== categories /========== */
 
+/* ========== topical ========== */
+.topical {
+    background: url(../img/topical/bg.jpg) 100% 0 /cover no-repeat;
+    padding: 100px 0 242px;
+
+}
+.topical__container {
+    position: relative;    
+}
+.topical__title {
+    color: var(--w-color);
+} 
+.topical__grup {
+    margin: 35px 0 50px;
+}
+.topical__btn {
+    color: var(--w-color);
+    border: none;
+    background: transparent;
+    padding: 12px 21px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.topical__btn:hover {
+    background: var(--r-color);
+}
+.topical__btn--active {
+    background: var(--r-color);
+}
+.topical__box {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px 100px;
+    flex-wrap: wrap;
+}
+.topical__box-item {
+    width: 345px;
+    padding: 18px;
+    border-radius: 4px;
+    background: var(--w-color);
+}
+.topical__item-image {
+    border-radius: 4px; 
+    overflow: hidden;
+}
+.topical__subtitle {
+    margin: 15px 0 8px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.005em;
+    color: var(--bls-color);
+}
+.topical__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--set-color);
+    margin-bottom: 9px;
+}
+.topical__dat {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--bl-color);
+}
+.topical__dat a {
+    display: inline-block;
+    font-weight: 700;
+    color: var(--r-color);
+    margin-left: 15px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.topical__dat a:hover {
+    color: var(--hover-color);
+}
+/* ========== topical /========== */
+
+/* ========== ask-2 ========== */
+.ask__block-2 {
+    position: absolute;
+    bottom: -310px;
+    z-index: 1;
+    background: var(--w-color);
+    width: calc(100% - 30px);
+}
+/* ========== ask-2 /========== */
+
+/* ========== footer ========== */
+.footer {
+    padding: 150px 0 30px;
+    background: var(--ser-color);
+}
+.footer__box {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.footer__box-info {
+     width: 384px;
+     margin-right: 90px;
+}
+.footer__info-logo {
+    display: flex;
+    align-items: center;
+}
+.footer__logo-text {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 75%;
+    color: var(--bls-color);
+}
+.footer__grup-icon {
+    display: flex;
+    margin: 25px 0;
+}
+.footer__icon-link {
+    margin-right: 25px;
+}
+.footer__icon-link {
+    margin-right: 25px;
+    width: 25px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer__icon-link:hover {
+    width: 25px;
+    margin-top: -2px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.footer__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--set-color);
+}
+.footer__title {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--set-color);
+    margin-bottom: 16px;
+}
+.footer__menu-item {
+    margin-bottom: 16px;
+}
+.footer__menu-link {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--set-color);
+    margin-bottom: 16px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.footer__menu-link:hover {
+    color: var(--hover-color);
+}
+.footer__hr {
+    background: var(--ser-color);
+    height: 1px;margin: 25px 0 ;
+}
+.footer__end {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center; 
+}
+
+/* ========== footer /========== */
+
 
 
 .class-mi {
@@ -577,6 +770,15 @@ a {
         width: 355px;
         height: 42px;
         margin-top: 18px;
+    }
+    .ask__grup-input {
+        flex-direction: column;
+    }
+    .ask__block-2 {
+        padding: 30px 35px;
+    }
+    .footer__box-info {
+        margin-right: 0;
     }
 }
 /* ====== Медиа 1350px /====== */
@@ -612,6 +814,19 @@ a {
     .categories__block-image {
         justify-content: center;
     }
+    .topical {
+        background: url(../img/topical/bg.jpg) 0 0 /cover no-repeat;
+    }
+    .topical__box {
+        justify-content: center;
+    }
+    .footer__box-info {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .footer__box-nav {
+        width: 18%;
+    }
 }
 /* ====== Медиа 1200px /====== */
 
@@ -625,6 +840,9 @@ a {
     }
     .ask__btn {
         margin: 18px auto 0;
+    }
+    .ask__block-form {
+        justify-content: center;
     }
 }
 /* ====== Медиа 998px /====== */
@@ -706,6 +924,37 @@ a {
     }
     .categories__block-txt {
         max-width: 100%;
+    }
+    .topical {
+        background: none;
+        padding: 30px 0 70px;
+    }
+    .topical__title {
+        color: var(--bls-color);
+    }
+    .topical__btn {
+        color: var(--set-color);
+    } 
+    .topical__btn:hover {
+        color: var(--w-color);
+    } 
+    .topical__btn--active {
+        color: var(--w-color);
+    }
+    .topical__box-item {
+        box-shadow: 0px 28px 104px rgba(41, 41, 41, 0.15);
+    }
+    .ask__block-2 {
+        display: none;
+    }
+    .footer {
+        padding: 35px 0 30px;
+    }
+    .footer__box {
+        gap: 40px;
+    }
+    .footer__box-nav {
+        width: 42%;
     }
 }
 /* ====== Медиа 768px /====== */

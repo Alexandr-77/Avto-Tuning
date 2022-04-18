@@ -53,4 +53,5 @@ $('.class-mi').slick({
    ]
  });
 
+ var mixer = mixitup('.topical__box');
 

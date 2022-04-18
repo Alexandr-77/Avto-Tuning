@@ -312,16 +312,186 @@
 
 
     <section class="topical">
-        <div class="container">
-            <h2 class="categories__title --title">Актуальное</h2>
+        <div class="container topical__container">
+            <h2 class="topical__title --title">Актуальное</h2>
             <div class="topical__grup">
-                <button class="topical__btn">Все</button>
-                <button class="topical__btn">Новости</button>
-                <button class="topical__btn">Акции</button>
+                <button class="topical__btn topical__btn--active" data-filter="all">Все</button>
+                <button class="topical__btn" data-filter=".new">Новости</button>
+                <button class="topical__btn" data-filter=".sale">Акции</button>
             </div>
+            <div class="topical__box">
+
+                <div class="topical__box-item mix new">
+                    <div class="topical__item-image">
+                        <img src="./img/topical/topical-1.jpg" alt="img">
+                    </div>
+                    <h3 class="topical__subtitle">Ломается ли ваг? После тюнинга</h3>
+                    <p class="topical__text">Все что вы хотели спросить, но боялись. Расказываем, что будет с вашим поло после stage 3 REVO</p>
+                    <h4 class="topical__dat">12 января <a href="#">Видеоблог</a></h4>
+                </div>
+
+                <div class="topical__box-item mix sale">
+                    <div class="topical__item-image">
+                        <img src="./img/topical/topical-2.jpg" alt="img">
+                    </div>
+                    <h3 class="topical__subtitle">Ломается ли ваг? После тюнинга</h3>
+                    <p class="topical__text">Все что вы хотели спросить, но боялись. Расказываем, что будет с вашим поло после stage 3 REVO</p>
+                    <h4 class="topical__dat">12 января <a href="#">Видеоблог</a></h4>
+                </div>
+
+                <div class="topical__box-item mix new">
+                    <div class="topical__item-image">
+                        <img src="./img/topical/topical-1.jpg" alt="img">
+                    </div>
+                    <h3 class="topical__subtitle">Ломается ли ваг? После тюнинга</h3>
+                    <p class="topical__text">Все что вы хотели спросить, но боялись. Расказываем, что будет с вашим поло после stage 3 REVO</p>
+                    <h4 class="topical__dat">12 января <a href="#">Видеоблог</a></h4>
+                </div>
+
+                <div class="topical__box-item mix sale">
+                    <div class="topical__item-image">
+                        <img src="./img/topical/topical-2.jpg" alt="img">
+                    </div>
+                    <h3 class="topical__subtitle">Ломается ли ваг? После тюнинга</h3>
+                    <p class="topical__text">Все что вы хотели спросить, но боялись. Расказываем, что будет с вашим поло после stage 3 REVO</p>
+                    <h4 class="topical__dat">12 января <a href="#">Видеоблог</a></h4>
+                </div>
+
+            </div>
+
+            <div class="ask__block ask__block-2">
+                <div class="ask__block-txt">
+                    <h2 class="ask__title --title">Мы готовы ответить на все ваши вопросы!</h2>
+                </div>
+                <form class="ask__block-form">
+                    <div class="ask__grup-input">
+                        <div class="ask__wrap-input">
+                            <h4 class="ask__label">Email</h4>
+                            <input class="ask__input" type="text" placeholder="example@email.com">
+                        </div>
+                        <div class="ask__wrap-input">
+                            <h4 class="ask__label">Телефон</h4>
+                            <input class="ask__input" type="text" placeholder="+ 373">
+                        </div>
+                    </div>
+                    <button type="button" class="ask__btn --btn">Задать вопрос</button>
+                </form>
+            </div>
+
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+
+                <div class="footer__box-info">
+
+                    <div class="footer__info-logo">
+                        <div class="footer__logo-image">
+                            <img src="./img/footer/footer-logo.svg" alt="logo">
+                        </div>
+                        <div class="footer__logo-text">Магазин <br> Автотюинга</div>
+                    </div>
+
+                    <div class="footer__grup-icon">
+
+                        <a href="#" class="footer__icon-link">
+                            <img src="./img/footer/insta.svg" alt="insta">
+                        </a>
+                        <a href="#" class="footer__icon-link">
+                            <img src="./img/footer/youtube.svg" alt="insta">
+                        </a>
+                        <a href="#" class="footer__icon-link">
+                            <img src="./img/footer/telega.svg" alt="insta">
+                        </a>
+
+                    </div>
+
+                    <p class="footer__text">Интернет-магазин тюнинг-комплектующих для современных автомобилей Audi, Skoda, Seat, Skoda, Porsche, BMW, Mercedes-Benz и др.Мы предлагаем только лучшие товары из Европы и США. Работаем напрямую с заводами, тем самым гарантируя отличные цены и сроки доставки.</p>
+                </div> 
+
+                <div class="footer__box-nav">
+                    <h3 class="footer__title">Страницы</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Главная</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Контакты</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Каталог</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Партнеры</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Актуальное</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Подбор по автомобилю</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__box-nav">
+                    <h3 class="footer__title">Для покупателей</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Доставка</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Оплата</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Возврат</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Партнеры</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Личный кабинет</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__box-nav">
+                    <h3 class="footer__title">Информация</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Статьи</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Видеообзоры</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Бренды</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Установочные центры</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__box-nav">
+                    <h3 class="footer__title">Правила</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Куки</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">Правила</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr class="footer__hr">
+            <h6 class="footer__end">© 2022 UrbanRacers</h6>
+            
+        </div>
+    </footer>
 
 
     <section class="">
@@ -370,6 +540,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/slick.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/mixitup.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
